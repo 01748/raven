@@ -290,7 +290,10 @@ body {
 
     @media(max-width:575px) {
         padding: 50px 20px;
-
+        .hero-img {
+            max-width: 80%;
+            width: 100%;
+        }
     }
 }
 
