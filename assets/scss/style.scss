@@ -58,12 +58,12 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
 
     &:hover {
-        color: var(--main);
+        color: var(--white);
         background-color: transparent;
-        border: 2px solid var(--main);
+        border: 1px solid var(--white);
         transition: all 0.3s linear;
     }
 
@@ -82,7 +82,11 @@ body {
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-
+    &:hover {
+        color: var(--title);
+        background-color:var(--white);
+        transition: all 0.3s linear;
+    }
     @media (max-width:575px) {
         width: 100%;
     }
@@ -420,3 +424,26 @@ body {
     }
 }
 
+//Summery
+.summery {
+    background-image: url('../img/summery.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 164px 0 151px 0;
+    @media(max-width:575px) {
+        padding: 50px 0;
+    }
+
+    .summery-wrapper {
+        .summery-card {
+            padding: 30px 0;
+        }
+        @media(max-width:575px) {
+            flex-direction: column;
+        }
+        .client-count {
+            padding: 41px 0 8px;
+        }
+    }
+}
