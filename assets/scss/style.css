@@ -238,6 +238,16 @@ body {
 }
 
 /* helper , base classes  - END*/
+.slider-arrow svg:hover circle {
+  stroke: #ED3833;
+}
+.slider-arrow svg:hover path {
+  fill: #ED3833;
+}
+.slider-arrow svg:hover rect {
+  fill: white;
+}
+
 
 @media (max-width: 991px) {
   .navbar {
@@ -404,15 +414,6 @@ body {
     padding: 40px 20px;
   }
 }
-.portfolio .protfolio-sub-title .slider-arrow svg:hover circle {
-  stroke: #ED3833;
-}
-.portfolio .protfolio-sub-title .slider-arrow svg:hover path {
-  fill: #ED3833;
-}
-.portfolio .protfolio-sub-title .slider-arrow svg:hover rect {
-  fill: white;
-}
 .portfolio .portfolio-card {
   margin-top: 37px;
   border-radius: 15px;
@@ -450,4 +451,82 @@ body {
 }
 .summery .summery-wrapper .client-count {
   padding: 41px 0 8px;
+}
+
+.testimonial {
+  padding: 222px 0 188px 0;
+}
+@media (max-width: 991px) {
+  .testimonial {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 767px) {
+  .testimonial {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 767px) {
+  .testimonial {
+    padding: 100px 30px;
+  }
+}
+.testimonial .client-profile {
+  padding-bottom: 43px;
+}
+.testimonial .client-profile .client-image {
+  max-height: 100%;
+  height: 100%;
+}
+
+.support-item .support-image {
+  max-height: 100%;
+  height: 100%;
+}
+
+.blog {
+  padding: 148px 0 130px 0;
+}
+@media (max-width: 767px) {
+  .blog {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 767px) {
+  .blog {
+    padding: 80px 10px;
+  }
+}
+.blog .blog-card {
+  margin-top: 39px;
+  padding: 32px 32px 29px 32px;
+  border: 2px solid rgba(153, 153, 153, 0.35);
+  border-radius: 16px;
+}
+.blog .blog-card .blog-image {
+  max-width: 100%;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .blog .blog-card {
+    padding: 10px 8px;
+  }
+}
+@media (max-width: 767px) {
+  .blog .blog-card {
+    padding: 32px 32px 29px 32px;
+  }
+}
+@media (max-width: 575px) {
+  .blog .blog-card {
+    padding: 20px 20px;
+  }
+}
+
+.contact {
+  background: url("../img/contact.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 152px 0 145px 0;
 }/*# sourceMappingURL=style.css.map */
