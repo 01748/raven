@@ -160,12 +160,19 @@ body {
 
 .fs-4 {
     @media(max-width: 575px){
-        font-size: 17px !important;
-        line-height: 25px;
+        font-size: 18px !important;
+        line-height: 28px;
     }
 }
 
 .fs-5 {
+    @media(max-width: 575px){
+        font-size: 16px !important;
+        line-height: 26px;
+    }
+}
+
+.fs-6 {
     @media(max-width: 575px){
         font-size: 14px !important;
         line-height: 24px;
