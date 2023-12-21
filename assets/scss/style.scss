@@ -92,6 +92,29 @@ body {
     }
 }
 
+.section-btn {
+    padding: 13px 55px;
+    color: var(--white);
+    background-color: var(--main);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid transparent;
+
+    &:hover {
+        color: var(--blue-light);
+        background-color: transparent;
+        border: 2px solid var(--blue-light);
+        transition: all 0.3s linear;
+    }
+
+    @media (max-width:575px) {
+        padding: 10px 40px;
+    }
+}
 
 /*font */
 .ff-dm {
@@ -601,7 +624,7 @@ body {
 
 .copyright {
     background-color: var(--title);
-    padding: 42px 0 37px 0;
+    padding-bottom: 42px;
     @media(max-width:767px) {
         padding: 20px 0 30px 0;
     }
